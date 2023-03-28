@@ -24,7 +24,7 @@ function App() {
         setEmail(data.email);
       }
     });
-  }, [phone, email]);
+  }, []);
 
   return (
     <div className="App">
